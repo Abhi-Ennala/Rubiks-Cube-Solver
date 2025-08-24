@@ -47,5 +47,15 @@ public:
         return COLOR::WHITE;
     }
   }
-  
+   bool isSolved() const override {
+      for (int i = 0; i < 6; i++) {
+        for (int j = 0; j < 3; j++) {
+          for (int k = 0; k < 3; k++) {
+            if (this->cube[i][j][k] == getColorLetter(COLOR(i))) continue;
+            return false;
+          }
+        }
+      }
+      return true;
+    }
 };
