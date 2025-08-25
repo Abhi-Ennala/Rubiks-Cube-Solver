@@ -84,12 +84,12 @@ clean: CMakeFiles/rubiks_cube_solver.dir/clean
 CMakeFiles/rubiks_cube_solver.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\rubiks_cube_solver.dir\build.make CMakeFiles/rubiks_cube_solver.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\rubiks_cube_solver.dir\build.make CMakeFiles/rubiks_cube_solver.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Abhinav Ennala\Desktop\Rubiks-Cube-Solver\build\CMakeFiles" --progress-num=1,2,3,4 "Built target rubiks_cube_solver"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Abhinav Ennala\Desktop\Rubiks-Cube-Solver\build\CMakeFiles" --progress-num=1,2,3,4,5 "Built target rubiks_cube_solver"
 .PHONY : CMakeFiles/rubiks_cube_solver.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/rubiks_cube_solver.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Abhinav Ennala\Desktop\Rubiks-Cube-Solver\build\CMakeFiles" 4
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Abhinav Ennala\Desktop\Rubiks-Cube-Solver\build\CMakeFiles" 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/rubiks_cube_solver.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Abhinav Ennala\Desktop\Rubiks-Cube-Solver\build\CMakeFiles" 0
 .PHONY : CMakeFiles/rubiks_cube_solver.dir/rule
@@ -101,7 +101,7 @@ rubiks_cube_solver: CMakeFiles/rubiks_cube_solver.dir/rule
 # codegen rule for target.
 CMakeFiles/rubiks_cube_solver.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\rubiks_cube_solver.dir\build.make CMakeFiles/rubiks_cube_solver.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Abhinav Ennala\Desktop\Rubiks-Cube-Solver\build\CMakeFiles" --progress-num=1,2,3,4 "Finished codegen for target rubiks_cube_solver"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Abhinav Ennala\Desktop\Rubiks-Cube-Solver\build\CMakeFiles" --progress-num=1,2,3,4,5 "Finished codegen for target rubiks_cube_solver"
 .PHONY : CMakeFiles/rubiks_cube_solver.dir/codegen
 
 # clean rule for target.

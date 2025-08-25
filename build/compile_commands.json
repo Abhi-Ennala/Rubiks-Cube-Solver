@@ -16,5 +16,11 @@
   "command": "C:\\PROGRA~2\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/rubiks_cube_solver.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\rubiks_cube_solver.dir\\Model\\RubiksCube3dArray.cpp.obj -c \"C:\\Users\\Abhinav Ennala\\Desktop\\Rubiks-Cube-Solver\\Model\\RubiksCube3dArray.cpp\"",
   "file": "C:/Users/Abhinav Ennala/Desktop/Rubiks-Cube-Solver/Model/RubiksCube3dArray.cpp",
   "output": "CMakeFiles/rubiks_cube_solver.dir/Model/RubiksCube3dArray.cpp.obj"
+},
+{
+  "directory": "C:/Users/Abhinav Ennala/Desktop/Rubiks-Cube-Solver/build",
+  "command": "C:\\PROGRA~2\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/rubiks_cube_solver.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\rubiks_cube_solver.dir\\Model\\RubiksCube1dArray.cpp.obj -c \"C:\\Users\\Abhinav Ennala\\Desktop\\Rubiks-Cube-Solver\\Model\\RubiksCube1dArray.cpp\"",
+  "file": "C:/Users/Abhinav Ennala/Desktop/Rubiks-Cube-Solver/Model/RubiksCube1dArray.cpp",
+  "output": "CMakeFiles/rubiks_cube_solver.dir/Model/RubiksCube1dArray.cpp.obj"
 }
 ]

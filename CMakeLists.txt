@@ -9,5 +9,8 @@ add_executable(rubiks_cube_solver
     main.cpp
     Model/RubiksCube.cpp
     Model/RubiksCube3dArray.cpp
+    Model/RubiksCube1dArray.cpp
+    Model/RubiksCube.h
+    Solver/BFSSolver.h
     # add only files that exist right now...
 )
