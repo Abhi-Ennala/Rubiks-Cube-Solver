@@ -198,7 +198,7 @@ vector<RubiksCube::MOVE> RubiksCube::randomShuffleCube(unsigned int times) {
   for(unsigned int i = 0; i < times; i++){
     unsigned int selectMove = (rand() % 18);
     moves_performed.push_back(static_cast<MOVE>(selectMove));
-    this->move(static_cast<MOVE>(selectMove));
+    this -> move(static_cast<MOVE>(selectMove));
   }
 
   return moves_performed;
