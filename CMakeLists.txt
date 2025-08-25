@@ -12,5 +12,7 @@ add_executable(rubiks_cube_solver
     Model/RubiksCube1dArray.cpp
     Model/RubiksCube.h
     Solver/BFSSolver.h
+    Solver/DFSSolver.h
+    Solver/IDDFSSolver.h
     # add only files that exist right now...
 )
