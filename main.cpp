@@ -9,9 +9,14 @@ using namespace std;
 int main(){
   RubiksCube1dArray cube1;
 
-  
-  cube1.f();
+  // vector<RubiksCube::MOVE> shuffle_moves = cube1.randomShuffleCube(5);
+  // for(auto move: shuffle_moves) cout << cube1.getMove(move) << " ";
+  // cout << "\n";
+  cube1.b();
   cube1.u();
+  cube1.f();
+  cube1.d();
+  cube1.b();
   cube1.print();
 
   BFSSolver<RubiksCube1dArray, Hash1d> bfsSolver(cube1);

@@ -101,7 +101,7 @@ RubiksCube &RubiksCube::move(MOVE ind) {
     case MOVE::B2:
       return this->b2();
     default: 
-       throw std::invalid_argument("Invalid MOVE enum in move()");
+      throw std::invalid_argument("Invalid MOVE enum in move()");
   }
 }
 
@@ -145,7 +145,7 @@ RubiksCube &RubiksCube::invert(MOVE ind) {
     case MOVE::B2:
       return this->b2();
     default: 
-       throw std::invalid_argument("Invalid MOVE enum in invert()");
+      throw std::invalid_argument("Invalid MOVE enum in invert()");
   }
 }
 
